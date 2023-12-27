@@ -47,7 +47,6 @@ struct FloatingPhoneTextField: View {
                     
                 }
         }
-        //.animation(.default, value: text)
         .padding()
         .frame(height: 52)
         .background(

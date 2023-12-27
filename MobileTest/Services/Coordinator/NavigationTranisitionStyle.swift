@@ -1,8 +1,8 @@
 //
 //  NavigationTranisitionStyle.swift
-//  Coordinator
+//  MobileTest
 //
-//  Created by Mohammad reza on 18.07.2022.
+//  Created by Maksim Guzeev on 26.12.2023.
 //
 
 import Foundation

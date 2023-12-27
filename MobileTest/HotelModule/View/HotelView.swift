@@ -75,51 +75,6 @@ struct HotelView: View {
     
     private var imageModule: some View {
         ImageTabView(images: vm.hotelModel?.imageUrls, selection: $selection)
-//        Group {
-//            if let images = vm.hotelModel?.imageUrls {
-//                TabView(selection: $selection) {
-//                    ForEach(images.indices, id: \.self) { index in
-//                        let img = images[index]
-//                        AsyncImage(url: URL(string: img)!) { result in
-//                            switch result {
-//                            case .success(let img):
-//                                img
-//                                    .resizable()
-//                                    .frame(height: 260)
-//                                    .scaledToFit()
-//                                    .cornerRadius(15)
-//                            default:
-//                                ProgressView()
-//                                    .progressViewStyle(CircularProgressViewStyle())
-//                            }
-//                        }
-//                        .tag(index)
-//                        .padding(.horizontal)
-//                    }
-//                    
-//                }
-//                .tabViewStyle(.page(indexDisplayMode: .never))
-//                .frame(height: 260)
-//                .overlay {
-//                    VStack {
-//                        Spacer()
-//                        CustomSelection(selection: $selection, count: images.count)
-//                            .offset(y: -8)
-//                    }
-//                    
-//                }
-//                .padding(.top)
-//            } else {
-//                RoundedRectangle(cornerRadius: 15)
-//                    .foregroundColor(.white)
-//                    .frame(height: 260123)
-//                    .overlay {
-//                        ProgressView()
-//                    }
-//            }
-//        }
-        
-
     }
     
     private var mainInfo: some View {
