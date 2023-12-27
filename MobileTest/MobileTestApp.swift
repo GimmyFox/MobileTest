@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct MobileTestApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
+    
+    init() {
+        
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HotelView()
+            }
+            .tint(.black)
         }
     }
 }
+
+
+
