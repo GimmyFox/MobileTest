@@ -142,10 +142,7 @@
 				9740090E2B31C3750054F653 /* PaymentModule */,
 				97F028FD2B34407500F71F8D /* Utility */,
 				974009022B31C15E0054F653 /* Services */,
-				9740091D2B31CB770054F653 /* Font+extension.swift */,
-				97F029172B397B9C00F71F8D /* Int+extension.swift */,
-				97F0290C2B357C9B00F71F8D /* String+extension.swift */,
-				9787CABB2B31D620009C7C33 /* View+extension.swift */,
+				97405BE22B3C6CE6002E63C5 /* Extension */,
 				974008F52B31C0380054F653 /* Assets.xcassets */,
 				974008F72B31C0380054F653 /* Preview Content */,
 			);
@@ -271,6 +268,17 @@
 				97405BDE2B3C0B76002E63C5 /* RoomCell.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		97405BE22B3C6CE6002E63C5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9740091D2B31CB770054F653 /* Font+extension.swift */,
+				97F029172B397B9C00F71F8D /* Int+extension.swift */,
+				97F0290C2B357C9B00F71F8D /* String+extension.swift */,
+				9787CABB2B31D620009C7C33 /* View+extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		97F028EA2B341C8D00F71F8D /* View */ = {
